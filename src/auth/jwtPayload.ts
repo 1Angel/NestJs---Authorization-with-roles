@@ -1,0 +1,9 @@
+
+
+export interface jwtPayload{
+
+    id: number;
+
+    email: string;
+    roles: string[]
+}
